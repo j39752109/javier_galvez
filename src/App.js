@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import './responsive.css';  // Archivo para estilos responsive
+import './scroll.css';  // Archivo para estilos responsive
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
@@ -57,12 +58,12 @@ function App() {
                   <span className="menu__overlay">Estudios</span>
                 </Link>
               </li>
-              <li className="menu__option">
+              {/* <li className="menu__option">
                 <Link to="/portafolio" className="menu__link">
                   <i className="menu__icon fa-solid fa-briefcase"></i>
                   <span className="menu__overlay">Portafolio</span>
                 </Link>
-              </li>
+              </li> */}
               <li className="menu__option">
                 <Link to="/contacto" className="menu__link">
                   <i className="menu__icon fa-solid fa-envelope"></i>
