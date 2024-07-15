@@ -250,6 +250,7 @@ body{
 }
 
 .menu__icon{
+    display: block;
     color:var(--color-icons);
     font-size: 2.8rem;
     transition: all 300ms ease-in-out;
