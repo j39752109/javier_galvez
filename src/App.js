@@ -3,7 +3,7 @@ import './App.css';
 import './responsive.css';  // Archivo para estilos responsive
 import './scroll.css';  // Archivo para estilos responsive
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
+import pdf from './pdf/cv.pdf'
 
 /* PAGES */
 import Inicio from './pages/inicio';
@@ -64,13 +64,13 @@ function App() {
                   <i className="menu__icon fa-solid fa-briefcase"></i>
                   <span className="menu__overlay">Portafolio</span>
                 </Link>
-              </li> */}
+              </li>
               <li className="menu__option">
                 <Link to="/contacto" className="menu__link" onClick={() => setMenuVisible(false)}>
                   <i className="menu__icon fa-solid fa-envelope"></i>
                   <span className="menu__overlay">Contacto</span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="user-info__links">
@@ -88,11 +88,8 @@ function App() {
             </ul>
           </div>
           <div className="user-info__buttons">
-            <button className="user-info__btn">Descargar CV</button>
+            <a className="user-info__btn" href={pdf} target='__blank'>Descargar CV</a>
           </div>
-          <footer className="user-info__footer">
-            © 2024 Javier Gálvez Web
-          </footer>
         </section>
       </aside>
 

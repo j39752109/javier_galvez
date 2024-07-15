@@ -132,6 +132,7 @@
         margin-left: 0;
         padding: 0;
         min-height: auto;
+        height: 13rem;
     }
     
     .menu__link{

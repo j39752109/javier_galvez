@@ -19,37 +19,21 @@ function Estudios(){
                 <div className="resume__timelines">
                     <article className="timelines__timeline">
                         <header className="timeline__header">
-                            <h4 className="timeline__year">2023</h4>
-                            <span className="timeline__company">Inacap</span>
+                            <h4 className="timeline__year">2022-2023</h4>
+                            {/* <span className="timeline__company">Inacap</span> */}
                         </header>
 
                         <div className="timeline__divider"></div>
 
                         <div className="timeline__description">
-                            <h3 className="timeline__title">Desarrollo Web</h3>
+                            <h3 className="timeline__title">Inacap Santiago Sur</h3>
                             <p className="timeline__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id incidunt tempore quidem, quam.
+                                Titulado en Analista Programador
                             </p>
                         </div>
 
                     </article>
 
-
-                    <article className="timelines__timeline">
-                        <header className="timeline__header">
-                            <h4 className="timeline__year">2023</h4>
-                            <span className="timeline__company">Inacap</span>
-                        </header>
-
-                        <div className="timeline__divider"></div>
-                        
-                        <div className="timeline__description">
-                            <h3 className="timeline__title">Desarrollo Web</h3>
-                            <p className="timeline__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id incidunt tempore quidem, quam.
-                            </p>
-                        </div>
-                    </article>
                 </div>
 
                 <header className="resume__subheader">
@@ -59,16 +43,16 @@ function Estudios(){
                 <div className="resume__timelines">
                     <article className="timelines__timeline">
                         <header className="timeline__header">
-                            <h4 className="timeline__year">2023</h4>
-                            <span className="timeline__company">Inacap</span>
+                            {/* <h4 className="timeline__year"></h4> */}
+                            <span className="timeline__company">Empresa ODIS</span>
                         </header>
 
                         <div className="timeline__divider"></div>
 
                         <div className="timeline__description">
-                            <h3 className="timeline__title">Desarrollo Web</h3>
+                            <h3 className="timeline__title">Pasantía</h3>
                             <p className="timeline__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id incidunt tempore quidem, quam.
+                                Apoyo con el WMS Block para inyectar datos faltantes o con errores para la preparación de pedidos, con el uso de la base de datos de producción SQLServer se realizaba el insert-update-delete dependiendo del caso para que los pedidos llegaran hacer enviados.
                             </p>
                         </div>
 
@@ -77,16 +61,16 @@ function Estudios(){
 
                     <article className="timelines__timeline">
                         <header className="timeline__header">
-                            <h4 className="timeline__year">2023</h4>
-                            <span className="timeline__company">Inacap</span>
+                            {/* <h4 className="timeline__year"></h4> */}
+                            <span className="timeline__company">Empresa ItRedSpa</span>
                         </header>
 
                         <div className="timeline__divider"></div>
                         
                         <div className="timeline__description">
-                            <h3 className="timeline__title">Desarrollo Web</h3>
+                            <h3 className="timeline__title">Práctica</h3>
                             <p className="timeline__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id incidunt tempore quidem, quam.
+                                Con PHP-CSS3-JS se me asigno el módulo para la creación de menú tipo Navbar que son creados dinámicamente con formularios para añadir, editar , guardar o eliminar. El botón del Navbar tiene la opción de añadirle un Submenú para tener más opciones de navegación.                            
                             </p>
                         </div>
                     </article>
@@ -147,6 +131,7 @@ function Estudios(){
 
             </section>
         </div>
+
     </section>
     );
 }

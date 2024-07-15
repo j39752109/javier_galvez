@@ -17,10 +17,10 @@ function SobreMi(){
 
             <div className="personal-info__data">
                 <ul className="personal-info__list">
-                    <li className="personal-info__option">
+                    {/* <li className="personal-info__option">
                         <span className="personal-info__title">Edad</span>
                         <span className="personal-info__value">10</span>
-                    </li>
+                    </li> */}
 
                     <li className="personal-info__option">
                         <span className="personal-info__title">Pais</span>
@@ -29,17 +29,17 @@ function SobreMi(){
 
                     <li className="personal-info__option">
                         <span className="personal-info__title">Dirección</span>
-                        <span className="personal-info__value">Calle falsa 123, xd</span>
+                        <span className="personal-info__value">General Oscar Bonilla, Macul</span>
                     </li>
 
                     <li className="personal-info__option">
                         <span className="personal-info__title">Correo</span>
-                        <span className="personal-info__value">Correo@correo.com</span>
+                        <span className="personal-info__value">javierfgg.96@gmail.com</span>
                     </li>
 
                     <li className="personal-info__option">
                         <span className="personal-info__title">Telefono</span>
-                        <span className="personal-info__value">+569 9999 9999</span>
+                        <span className="personal-info__value">+569 8201 5710</span>
                     </li>
                 </ul>
             </div>
