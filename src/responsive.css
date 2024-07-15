@@ -197,6 +197,9 @@
     .gallery__item {
         flex-basis: 50%;
     }
+    .menu__icon{
+        display: none;
+    }
 }
 
 
@@ -224,6 +227,10 @@
     .resume__container {
         flex-direction: column;
     }
+
+    .menu__icon{
+        display: none;
+    }
 }
 
 
@@ -244,5 +251,8 @@
 
     .contacto__title {
         font-size: 4.8rem;
+    }
+    .menu__icon{
+        display: none;
     }
 }
