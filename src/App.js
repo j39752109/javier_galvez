@@ -98,7 +98,7 @@ function App() {
     <div className="layout__menu-toggle" onClick={toggleMenu}>
         <i className={`menu-toggle_icon fa-solid fa-bars ${menuVisible ? 'hidden' : ''}`}></i>
         <i className={`menu-toggle_icon fa-solid fa-xmark ${menuVisible ? '' : 'hidden'}`}></i>
-      </div>
+    </div>
     
     <main className="layout__content">
         <Routes>

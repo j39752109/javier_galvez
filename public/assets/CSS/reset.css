@@ -12,6 +12,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow: hidden; /* Evita que el body tenga scroll, usamos un contenedor */
 }
 
 body{
