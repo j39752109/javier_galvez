@@ -44,7 +44,7 @@ function Estudios(){
                     <article className="timelines__timeline">
                         <header className="timeline__header">
                             {/* <h4 className="timeline__year"></h4> */}
-                            <span className="timeline__company">Empresa ODIS</span>
+                            <span className="timeline__company__1">Empresa ODIS</span>
                         </header>
 
                         <div className="timeline__divider"></div>
@@ -62,7 +62,7 @@ function Estudios(){
                     <article className="timelines__timeline">
                         <header className="timeline__header">
                             {/* <h4 className="timeline__year"></h4> */}
-                            <span className="timeline__company">Empresa ItRedSpa</span>
+                            <span className="timeline__company__1">Empresa ItRedSpa</span>
                         </header>
 
                         <div className="timeline__divider"></div>
