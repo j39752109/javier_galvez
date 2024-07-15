@@ -21,6 +21,7 @@ function App() {
 
   const [menuVisible, setMenuVisible] = useState(false);
 
+  
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
   };
@@ -41,20 +42,20 @@ function App() {
           <nav className="layout__menu">
             <ul className="menu__list">
               <li className="menu__option">
-                <Link to="/" className="menu__link menu__link--active">
+                <Link to="/"  className="menu__link menu__link--active" onClick={() => setMenuVisible(false)}>
                   <i className="menu__icon fa-solid fa-house"></i>
                   <span className="menu__overlay">Inicio</span>
                 </Link>
               </li>
               <li className="menu__option">
-                <Link to="/sobre-mi" className="menu__link">
+                <Link to="/sobre-mi" className="menu__link" onClick={() => setMenuVisible(false)}>
                   <i className="menu__icon fa-solid fa-user"></i>
                   <span className="menu__overlay">Sobre mi</span>
                 </Link>
               </li>
               <li className="menu__option">
-                <Link to="/estudios" className="menu__link">
-                  <i className="menu__icon fa-solid fa-graduation-cap"></i>
+                <Link to="/estudios" className="menu__link" onClick={() => setMenuVisible(false)}>
+                  <i className="menu__icon fa-solid fa-graduation-cap" ></i>
                   <span className="menu__overlay">Estudios</span>
                 </Link>
               </li>
@@ -65,7 +66,7 @@ function App() {
                 </Link>
               </li> */}
               <li className="menu__option">
-                <Link to="/contacto" className="menu__link">
+                <Link to="/contacto" className="menu__link" onClick={() => setMenuVisible(false)}>
                   <i className="menu__icon fa-solid fa-envelope"></i>
                   <span className="menu__overlay">Contacto</span>
                 </Link>
@@ -96,8 +97,8 @@ function App() {
       </aside>
 
     <div className="layout__menu-toggle" onClick={toggleMenu}>
-        <i className="menu-toggle_icon fa-solid fa-bars"></i>
-        <i className="menu-toggle_icon fa-solid fa-xmark"></i>
+        <i className={`menu-toggle_icon fa-solid fa-bars ${menuVisible ? 'hidden' : ''}`}></i>
+        <i className={`menu-toggle_icon fa-solid fa-xmark ${menuVisible ? '' : 'hidden'}`}></i>
     </div>
     
     <main className="layout__content">
