@@ -96,8 +96,8 @@ function App() {
       </aside>
 
     <div className="layout__menu-toggle" onClick={toggleMenu}>
-        <i className={`menu-toggle_icon fa-solid fa-bars ${menuVisible ? 'hidden' : ''}`}></i>
-        <i className={`menu-toggle_icon fa-solid fa-xmark ${menuVisible ? '' : 'hidden'}`}></i>
+        <i className="menu-toggle_icon fa-solid fa-bars"></i>
+        <i className="menu-toggle_icon fa-solid fa-xmark"></i>
     </div>
     
     <main className="layout__content">
