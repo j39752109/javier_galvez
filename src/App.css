@@ -401,8 +401,8 @@ body{
 
 
 .service__description{
-    font-size: 1.5rem;
-    text-align: justify;
+    font-size: 1.4rem;
+    text-align: left;
 }
 
 .service_icons{
@@ -410,6 +410,14 @@ body{
     color:var(--color-secondary);
 }
 
+.service__list{
+    list-style-type: disc; /* Usa un círculo sólido */
+    padding-left: 2rem; /* Espacio para el marcador */
+}
+
+.list{
+    margin-bottom: 2rem;
+}
 
 /*Estudios*/
 
@@ -567,25 +575,36 @@ body{
 }
 
 .skills__percentage--b1{
-    width: 89%;
+    width: 83%;
 }
 
 .skills__percentage--b2{
-    width: 70%;
+    width: 74%;
 }
 
 .skills__percentage--b3{
-    width: 76%;
+    width: 62%;
 }
 
 .skills__percentage--b4{
-    width: 84%;
+    width: 70%;
 }
+
 .skills__percentage--b5{
-    width: 67%;
+    width: 50%;
 }
 
+.skills__percentage--b6{
+    width: 60%;
+}
 
+.skills__percentage--b7{
+    width: 89%;
+}
+
+.skills__percentage--b8{
+    width: 38%;
+}
 /* portafolio */
 
 .portafolio__navbar{

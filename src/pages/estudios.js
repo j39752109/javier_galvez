@@ -85,7 +85,7 @@ function Estudios(){
                 <div className="resume__skills">
                     <article className="skills__title">
                         <h4 className="skills__text">CSS3 y HTML</h4>
-                        <span className="skills__number">90%</span>
+                        <span className="skills__number">83%</span>
                     </article>
 
                     <div className="skills__progressbar">
@@ -94,7 +94,7 @@ function Estudios(){
 
                     <article className="skills__title">
                         <h4 className="skills__text">JS</h4>
-                        <span className="skills__number">90%</span>
+                        <span className="skills__number">74%</span>
                     </article>
 
                     <div className="skills__progressbar">
@@ -103,7 +103,7 @@ function Estudios(){
 
                     <article className="skills__title">
                         <h4 className="skills__text">Python</h4>
-                        <span className="skills__number">90%</span>
+                        <span className="skills__number">62%</span>
                     </article>
 
                     <div className="skills__progressbar">
@@ -112,7 +112,7 @@ function Estudios(){
 
                     <article className="skills__title">
                         <h4 className="skills__text">SQL Server</h4>
-                        <span className="skills__number">90%</span>
+                        <span className="skills__number">70%</span>
                     </article>
 
                     <div className="skills__progressbar">
@@ -120,12 +120,39 @@ function Estudios(){
                     </div>
 
                     <article className="skills__title">
+                        <h4 className="skills__text">MySQl</h4>
+                        <span className="skills__number">89%</span>
+                    </article>
+
+                    <div className="skills__progressbar">
+                        <div className="skills__percentage skills__percentage--b7"></div>
+                    </div>
+
+                    <article className="skills__title">
                         <h4 className="skills__text">React JS</h4>
-                        <span className="skills__number">90%</span>
+                        <span className="skills__number">50%</span>
                     </article>
 
                     <div className="skills__progressbar">
                         <div className="skills__percentage skills__percentage--b5"></div>
+                    </div>
+
+                    <article className="skills__title">
+                        <h4 className="skills__text">Python - Flask</h4>
+                        <span className="skills__number">60%</span>
+                    </article>
+
+                    <div className="skills__progressbar">
+                        <div className="skills__percentage skills__percentage--b6"></div>
+                    </div>
+
+                    <article className="skills__title">
+                        <h4 className="skills__text">PHP</h4>
+                        <span className="skills__number">38%</span>
+                    </article>
+
+                    <div className="skills__progressbar">
+                        <div className="skills__percentage skills__percentage--b8"></div>
                     </div>
                 </div>
 
