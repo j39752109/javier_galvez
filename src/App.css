@@ -419,6 +419,12 @@ body{
     margin-bottom: 2rem;
 }
 
+.timeline_fecha{
+    color: var(--color-company);
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
 /*Estudios*/
 
 .resume__container{

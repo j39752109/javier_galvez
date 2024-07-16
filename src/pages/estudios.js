@@ -69,6 +69,7 @@ function Estudios(){
                         
                         <div className="timeline__description">
                             <h3 className="timeline__title">Práctica</h3>
+                            <h5 className="timeline_fecha">02/05/2024 - 08/07/2024</h5>
                             <p className="timeline__text">
                                 Con PHP-CSS3-JS se me asigno el módulo para la creación de menú tipo Navbar que son creados dinámicamente con formularios para añadir, editar , guardar o eliminar. El botón del Navbar tiene la opción de añadirle un Submenú para tener más opciones de navegación.                            
                             </p>
