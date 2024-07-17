@@ -155,6 +155,14 @@ function Estudios(){
                     <div className="skills__progressbar">
                         <div className="skills__percentage skills__percentage--b8"></div>
                     </div>
+                    <article className="skills__title">
+                        <h4 className="skills__text">.NET</h4>
+                        <span className="skills__number">40%</span>
+                    </article>
+
+                    <div className="skills__progressbar">
+                        <div className="skills__percentage skills__percentage--b9"></div>
+                    </div>
                 </div>
 
             </section>
