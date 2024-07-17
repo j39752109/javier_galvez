@@ -3,7 +3,7 @@ import './App.css';
 import './responsive.css';  // Archivo para estilos responsive
 import './scroll.css';  // Archivo para estilos responsive
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import pdf from './pdf/cv.pdf'
+import pdf from './pdf/cv_javier_galvez.pdf'
 
 /* PAGES */
 import Inicio from './pages/inicio';
