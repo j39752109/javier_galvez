@@ -13,7 +13,7 @@ import Contacto from './pages/contacto';
 /* FIN PAGES*/
 
 /* IMAGES*/
-import profileImage from './assets/img/23.png';
+import profileImage from './assets/img/23.jpg';
 
 /* FIN IMAGES*/
 
